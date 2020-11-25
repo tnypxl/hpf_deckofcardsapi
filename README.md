@@ -12,4 +12,4 @@ $ dotnet test
 ### Notes
 
 * Its not really necessary to run `nunit test`. Its better to just run `dotnet test` instead. This is especially true when using the dotnet nunit template. 
-* Sending a POST without a body is incorrect use the HTTP verb. It is much preferred to use GET in this case.
+* Sending a POST without a body is incorrect use of the HTTP verb. It is much preferred to use GET in this case.
