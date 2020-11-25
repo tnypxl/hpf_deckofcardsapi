@@ -2,10 +2,12 @@
 
 ### Setup
 
+```
 $ git clone https://github.com/tnypxl/hpf_deckofcardsapi.git
 $ cd hpf_deckofcardsapi.git
 $ dotnet build
 $ dotnet test
+```
 
 ### Notes
 
