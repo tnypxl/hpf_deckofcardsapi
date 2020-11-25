@@ -12,12 +12,7 @@ namespace DeckOfCardsApi.Tests.Endpoints
             var request = new RestRequest("deck/new", Method.GET);
 
             if (jokersEnabled)
-            {
-                request.Method = Method.POST;
                 request.AddQueryParameter("jokers_enabled", "true");
-
-                return Response<NewDeckResponse>(request);
-            }
 
             return Response<NewDeckResponse>(request);
         }
