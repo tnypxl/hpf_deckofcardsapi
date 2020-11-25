@@ -7,7 +7,7 @@ namespace DeckOfCardsApi.Tests.Endpoints
 {
     public class Deck : Endpoint
     {
-        public NewDeckResponse CreateNewDeck(bool jokersEnabled = true)
+        public NewDeckResponse CreateNewDeck(bool jokersEnabled = false)
         {
             var request = new RestRequest("deck/new", Method.GET);
 
