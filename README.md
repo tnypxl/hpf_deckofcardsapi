@@ -4,7 +4,7 @@
 
 ```
 $ git clone https://github.com/tnypxl/hpf_deckofcardsapi.git
-$ cd hpf_deckofcardsapi.git
+$ cd hpf_deckofcardsapi
 $ dotnet build
 $ dotnet test
 ```
